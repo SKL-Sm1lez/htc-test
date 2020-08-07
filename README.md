@@ -3,7 +3,7 @@
 Steps:
 
 - cd ../htc-test
-- npm i
+- yarn install
 - yarn start (запускает dev build)
 - yarn build (создаёт prod build)
 - готовый prod build ( https://react-htc-test.web.app/movie )
