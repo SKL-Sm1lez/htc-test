@@ -2,7 +2,7 @@
 
 Steps:
 
-- cd ../frontend-htc-d2
+- cd ../htc-test
 - npm i
 - yarn start (запускает dev build)
 - yarn build (создаёт prod build)
@@ -11,7 +11,7 @@ Steps:
 =======================
 
 - Поддерживается ie11
-- все исходники в ../frontend-htc-d2/src
+- все исходники в ../htc-test/src
 
 =======================
 
