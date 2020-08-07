@@ -1,0 +1,110 @@
+.movie {
+    margin: 32px 0 0 0;
+}
+
+.movieCardsTittle {
+    display: flex;
+    align-items: center;
+
+    height: 28px;
+    
+    margin-bottom: 15px;
+
+    & .fire {
+        display: block;
+        box-sizing: border-box;
+
+        height: 25px;
+        margin: 0 6px 3px 0
+    }
+
+    & .newTittle {
+        display: block;
+
+        font-family: 'Rubik';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 28px;
+    
+        color: #333333;
+    }
+}
+
+.scrollMovie {
+    display: flex;
+    justify-content: center;
+
+    position: relative;
+
+    width: 1290px;
+
+    transform: translateX(-55px);
+
+    &:hover img {
+        opacity: 1;
+    }
+}
+
+.scrollView {
+    width: 1180px;
+    overflow: hidden;
+}
+
+.movieCards {
+    width: 2380px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.generes {
+    margin: 32px 0 0 0;
+
+    & h2 {
+        font-family: 'Rubik';
+        font-weight: 500;
+
+        color: #333333;
+
+        margin: 0 0 16px 0;
+    }
+}
+
+.nextImg {
+    position: absolute;
+    top: 43%;
+    right: 0;
+    transform: translateY(-50%);
+
+    width: 50px;
+
+    z-index: 5;
+
+    margin: 0;
+    padding: 0;
+
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+
+    cursor: pointer;
+}
+
+.backImg {
+    position: absolute;
+    top: 43%;
+    left: 0;
+    transform: translateY(-50%);
+
+    width: 50px;
+
+    z-index: 5;
+
+    margin: 0;
+    padding: 0;
+
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
+
+    cursor: pointer;
+}

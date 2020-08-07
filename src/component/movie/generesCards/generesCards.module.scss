@@ -1,0 +1,275 @@
+.generesCard {
+    display: flex;
+    justify-content: space-between;
+
+    width: 1180px;
+
+
+    // ===== Comedy =====
+    & .comedyCard {
+        position: relative;
+
+        width: 280px;
+        height: 208px;
+
+        cursor: pointer;
+
+        &:hover .comedyGradient {
+            opacity: 1;
+        }
+
+        & img {
+            position: absolute;
+
+            width: 48px;
+            height: 48px;
+
+            top: 80px;
+            left: 50%;
+            transform: translateX(-50%);
+    
+            z-index: 2;
+        }
+
+        & p {
+            position: absolute;
+
+            font-family: 'Rubik';
+            font-style: normal;
+            font-weight: normal;
+            font-size: 20px;
+            line-height: 24px;
+    
+            color: #FFFFFF;
+            
+            bottom: 24px;
+            left: 50%;
+            transform: translateX(-50%);
+    
+            z-index: 2;
+
+            margin: 0;
+            padding: 0;
+        }
+    
+        & .comedyGradient {
+            position: absolute;
+            
+            background: linear-gradient(136.27deg, #F2C94C 8.44%, #F29A4A 91.36%);
+            box-shadow: inset 0px 0px 16px rgba(0, 0, 0, 0.15);
+            border-radius: 6px;
+            opacity: 0.8;
+    
+            width: 100%;
+            height: 100%;
+    
+            top: 0;
+            left: 0;
+    
+            z-index: 1;
+
+            transition: opacity .2s ease-in;
+        }
+    }
+
+    // ===== Dramas =====
+    & .dramasCard {
+        position: relative;
+
+        width: 280px;
+        height: 208px;
+
+        cursor: pointer;
+
+        &:hover .dramasGradient {
+            opacity: 1;
+        }
+
+        & img {
+            position: absolute;
+
+            width: 48px;
+            height: 48px;
+
+            top: 80px;
+            left: 50%;
+            transform: translateX(-50%);
+    
+            z-index: 2;
+        }
+
+        & p {
+            position: absolute;
+
+            font-family: 'Rubik';
+            font-style: normal;
+            font-weight: normal;
+            font-size: 20px;
+            line-height: 24px;
+    
+            color: #FFFFFF;
+            
+            bottom: 24px;
+            left: 50%;
+            transform: translateX(-50%);
+    
+            z-index: 2;
+
+            margin: 0;
+            padding: 0;
+        }
+    
+        & .dramasGradient {
+            position: absolute;
+            
+            background: linear-gradient(136.27deg, #F2994A 8.44%, #EB5757 91.36%);
+            box-shadow: inset 0px 0px 16px rgba(0, 0, 0, 0.15);
+            border-radius: 6px;
+            opacity: 0.8;
+    
+            width: 100%;
+            height: 100%;
+    
+            top: 0;
+            left: 0;
+    
+            z-index: 1;
+
+            transition: opacity .2s ease-in;
+        }
+    }
+
+    // ===== Fantastic =====
+    & .fantasticCard {
+        position: relative;
+
+        width: 280px;
+        height: 208px;
+
+        cursor: pointer;
+
+        &:hover .fantasticGradient {
+            opacity: 1;
+        }
+
+        & img {
+            position: absolute;
+
+            width: 48px;
+            height: 48px;
+
+            top: 80px;
+            left: 50%;
+            transform: translateX(-50%);
+    
+            z-index: 2;
+        }
+
+        & p {
+            position: absolute;
+
+            font-family: 'Rubik';
+            font-style: normal;
+            font-weight: normal;
+            font-size: 20px;
+            line-height: 24px;
+    
+            color: #FFFFFF;
+            
+            bottom: 24px;
+            left: 50%;
+            transform: translateX(-50%);
+    
+            z-index: 2;
+
+            margin: 0;
+            padding: 0;
+        }
+    
+        & .fantasticGradient {
+            position: absolute;
+            
+            background: linear-gradient(136.27deg, #56CCF2 8.44%, #2F80ED 91.36%);
+            box-shadow: inset 0px 0px 16px rgba(0, 0, 0, 0.15);
+            border-radius: 6px;
+            opacity: 0.8;
+    
+            width: 100%;
+            height: 100%;
+    
+            top: 0;
+            left: 0;
+    
+            z-index: 1;
+
+            transition: opacity .2s ease-in;
+        }
+    }
+
+    // ===== Horror =====
+    & .horrorCard {
+        position: relative;
+
+        width: 280px;
+        height: 208px;
+
+        cursor: pointer;
+
+        &:hover .horrorGradient {
+            opacity: 1;
+        }
+
+        & img {
+            position: absolute;
+
+            width: 48px;
+            height: 48px;
+
+            top: 80px;
+            left: 50%;
+            transform: translateX(-50%);
+    
+            z-index: 2;
+        }
+
+        & p {
+            position: absolute;
+
+            font-family: 'Rubik';
+            font-style: normal;
+            font-weight: normal;
+            font-size: 20px;
+            line-height: 24px;
+    
+            color: #FFFFFF;
+            
+            bottom: 24px;
+            left: 50%;
+            transform: translateX(-50%);
+    
+            z-index: 2;
+
+            margin: 0;
+            padding: 0;
+        }
+    
+        & .horrorGradient {
+            position: absolute;
+            
+            background: linear-gradient(136.27deg, #828282 8.44%, #333333 91.36%);
+            box-shadow: inset 0px 0px 16px rgba(0, 0, 0, 0.15);
+            border-radius: 6px;
+            opacity: 0.8;
+    
+            width: 100%;
+            height: 100%;
+    
+            top: 0;
+            left: 0;
+    
+            z-index: 1;
+
+            transition: opacity .2s ease-in;
+        }
+    }
+}

@@ -1,0 +1,31 @@
+.search {
+    display: flex;
+    flex-direction: column;
+
+    margin: 44px 0 0 0;
+    padding: 0;
+
+    & h2 {
+        font-family: 'Rubik';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 28px;
+
+        color: #333333;
+
+        margin: 0 0 16px 7.5px;
+        padding: 0;
+    }
+}
+
+.movies {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.moviesBlock {
+    padding: 7.5px;
+}

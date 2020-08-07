@@ -1,0 +1,205 @@
+.header {
+    display: flex;
+
+    margin: 32px 0 0 0;
+}
+
+.logo {
+    width: 182px;
+    height: 36px;
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    margin-right: 207px;
+
+    & img {
+        width: 36.15px;
+        height: 36px;
+        
+        margin-right: 11.85px;
+    }
+
+    & a {
+        margin: 0;
+        padding: 0;
+        
+        font-family: 'Rubik';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
+
+        color: #333333;
+
+        text-decoration: none;
+    }
+}
+
+.search {
+    margin: 11px 0 4px 0;
+
+    display: flex;
+    flex-direction: row;
+
+    width: 402px;
+    height: 25px;
+
+    // ===== search input =====
+    & input {
+        width: 320px;
+
+        margin: 0px 32px 0 0;
+        padding: 0 0 6px 0;
+
+        outline: none;
+        border: none;
+
+        border-bottom: 1px solid #333333;
+        
+        font-family: 'Rubik';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+    
+        color: #333333;
+
+        &::placeholder {
+            font-family: 'Rubik';
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 19px;
+
+            color: #828282;
+        }
+
+        &::-webkit-input-placeholder {
+            font-family: 'Rubik';
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 19px;
+
+            color: #828282;
+        }
+       
+        &::-moz-placeholder {
+            font-family: 'Rubik';
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 19px;
+
+            color: #828282;
+        }
+       
+        &:-moz-placeholder {
+            font-family: 'Rubik';
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 19px;
+
+            color: #828282;
+        }
+
+        &:-ms-input-placeholder {
+            font-family: 'Rubik';
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 19px;
+
+            color: #828282;
+        }
+    }
+
+    // ===== search button =====
+    & a {
+        width: 19px;
+
+        padding: 0 0 6px 0;
+
+        outline: none;
+        border: none;
+        
+        font-family: 'Rubik';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+
+        color: #E5261E;
+        background: transparent;
+
+        text-decoration: none;
+
+        cursor: pointer;
+    }
+}
+
+
+
+.logInButton {
+    margin: 0 0 0 276px;
+}
+
+.logout {
+    display: flex;
+
+    margin: 0 0 0 101px;
+}
+
+.inputName {
+    width: 220px;
+
+    padding: 0;
+    margin: 0 16px 0 0;
+
+    text-align: right;
+
+    outline: none;
+    border: none;
+
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #333333;
+
+    cursor: pointer;
+
+    &:focus, &:active {
+        outline: none;
+        border: none;
+
+        cursor: text;
+    }
+}
+
+.logOutButton {
+    padding: 0;
+    margin: 0;
+
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+
+    text-align: center;
+
+    color: #E5261E;
+
+    outline: none;
+    border: none;
+    
+    background: transparent;
+
+    cursor: pointer;
+}

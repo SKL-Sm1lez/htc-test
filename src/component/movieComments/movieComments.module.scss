@@ -1,0 +1,285 @@
+.movieComments {
+    display: flex;
+    flex-direction: column;
+}
+
+.movie {
+    display: flex;
+
+    margin-bottom: 43px;
+
+    & a {
+        text-decoration: none;
+
+        height: 20px;
+        width: 10px;
+        margin: 12px 90px 0 0;
+    }
+}
+
+.backButton {
+    height: 20px;
+    width: 10px;
+}
+
+.movieImg {
+    width: 280px;
+    height: 370px;
+    border-radius: 8px;
+
+    margin-right: 120px;
+}
+
+.descriptionMovie {
+    display: flex;
+}
+
+.typesPoistion {
+    margin: 4px 24px 0 0;
+}
+
+.types {
+    margin: 0 0 21px 0;
+    padding: 0;
+
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #333333;
+}
+
+.typesName {
+    margin: 0 0 16px 0;
+    padding: 0;
+
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #333333;
+}
+
+.typesText {
+    margin: 0 0 16px 0;
+    padding: 0;
+
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #333333;
+}
+
+.descriptionText {
+    margin: 7px 0 0 0;
+    padding: 0;
+
+    width: 580px;
+
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 140%;
+
+    color: #333333;
+}
+
+.comments {
+    display: flex;
+    flex-direction: column;
+
+    width: 780px;
+
+    margin: 0 auto;
+}
+
+.commentTittle {
+    margin: 0 0 24px 0;
+    padding: 0;
+
+    text-align: center;
+
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #333333;
+}
+
+.commentForm {
+    position: relative;
+    
+    width: 100%;
+    height: 110px;
+
+    & div {
+        position: absolute;
+
+        top: 0;
+        right: -193px;
+    }
+}
+
+.reverseColumn {
+    display: flex;
+    flex-direction: column-reverse;
+    
+    padding: 0;
+    margin: 16px 0 0 0;
+}
+
+.areaError {
+    width: 748px;
+    min-height: 78px;
+    
+    overflow: hidden;
+    padding: 16px;
+    resize: none;
+
+    background: rgba(#E5261E, 0.15);
+    border-radius: 8px;
+
+    outline: none;
+    border: none;
+
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #E5261E;
+
+    &::placeholder {
+        font-family: 'Rubik';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 19px;
+
+        color: #E5261E;
+    }
+
+    &::-webkit-input-placeholder {
+        font-family: 'Rubik';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 19px;
+
+        color: #E5261E;
+    }
+   
+    &::-moz-placeholder {
+        font-family: 'Rubik';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 19px;
+
+        color: #E5261E;
+    }
+   
+    &:-moz-placeholder {
+        font-family: 'Rubik';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 19px;
+
+        color: #E5261E;
+    }
+
+    &:-ms-input-placeholder {
+        font-family: 'Rubik';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 19px;
+
+        color: #E5261E;
+    }
+}
+
+.areaSuccess {
+    width: 748px;
+    min-height: 78px;
+    
+    overflow: hidden;
+    padding: 16px;
+    resize: none;
+
+    background: #F2F2F2;
+    border-radius: 8px;
+
+    outline: none;
+    border: none;
+
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #333333;
+
+    &::placeholder {
+        font-family: 'Rubik';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 19px;
+
+        color: #828282;
+    }
+
+    &::-webkit-input-placeholder {
+        font-family: 'Rubik';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 19px;
+
+        color: #828282;
+    }
+   
+    &::-moz-placeholder {
+        font-family: 'Rubik';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 19px;
+
+        color: #828282;
+    }
+   
+    &:-moz-placeholder {
+        font-family: 'Rubik';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 19px;
+
+        color: #828282;
+    }
+
+    &:-ms-input-placeholder {
+        font-family: 'Rubik';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 19px;
+
+        color: #828282;
+    }
+}

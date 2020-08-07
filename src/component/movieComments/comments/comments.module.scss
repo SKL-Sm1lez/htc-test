@@ -1,0 +1,49 @@
+.comments {
+    position: relative;
+
+    width: 748px;
+
+    background: #F2F2F2;
+    border-radius: 8px;
+
+    padding: 16px;
+    margin: 0 0 16px 0;
+}
+
+.name {
+    margin: 0 0 8px 0;
+    padding: 0;
+
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #333333;
+}
+
+.text {
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #333333;
+}
+
+.delete {
+    position: absolute;
+
+    top: 0;
+    right: -30px;
+
+    width: 15px;
+    height: 15px;
+
+    cursor: pointer;
+}

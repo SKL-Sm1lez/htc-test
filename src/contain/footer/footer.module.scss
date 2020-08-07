@@ -1,0 +1,64 @@
+.footer {
+  height: 120px;
+  width: 100%;
+
+  margin: 72px 0 0 0;
+  padding: 0;
+
+  background: #F2F2F2;
+}
+
+.contain {
+  display: flex;
+  height: 120px;
+
+  & img {
+    padding: 0;
+    margin: 28px 0;
+    height: 64px;
+    width: 32px;
+  }
+
+  & section  {
+    margin: 0 0 0 34px;
+  
+      & .Description {
+        margin: 22px 0 6px 0;
+        padding: 0;
+
+        font-family: 'Rubik';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 19px;
+  
+        color: #333333;
+      }
+  
+      & .phone {
+        margin: 0;
+        padding: 0;
+
+        font-family: 'Rubik';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 19px;
+  
+        color: #333333;
+      }
+  
+      & .link {
+        margin: 10px 0 0 0;
+        padding: 0;
+
+        font-family: 'Rubik';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+  
+        color: #1F4766;
+      }
+  }
+}
